@@ -1,0 +1,118 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profileLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/c1"
+        android:layout_width="320dp"
+        android:layout_height="200dp"
+        android:layout_margin="8dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:translationY="40dp"
+        app:cardCornerRadius="36dp"
+        app:cardPreventCornerOverlap="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="-29dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ImageCardView"
+            android:layout_width="131dp"
+            android:layout_height="131dp"
+            android:backgroundTint="@color/black"
+            android:rotationX="0"
+            android:rotationY="0"
+            android:translationX="90dp"
+            android:translationY="10dp"
+            app:cardCornerRadius="60dp">
+
+            <ImageView
+                android:id="@+id/profileImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/avatar_" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvUserName"
+            android:layout_width="228dp"
+            android:layout_height="55dp"
+            android:text="User Name"
+            android:textAlignment="center"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:translationX="45dp"
+            android:translationY="150dp" />
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <TextView
+        android:id="@+id/tvFirstName"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/taxtviewbackgruond"
+        android:text="First Name"
+        android:textAlignment="center"
+        android:textColor="@color/sorati"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/c1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvLastName"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/taxtviewbackgruond"
+        android:text="Last Name"
+        android:textAlignment="center"
+        android:textColor="@color/sorati"
+        app:layout_constraintEnd_toEndOf="@+id/tvFirstName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvFirstName"
+        app:layout_constraintTop_toBottomOf="@+id/tvFirstName"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/taxtviewbackgruond"
+        android:text="Email"
+        android:textAlignment="center"
+        android:textColor="@color/sorati"
+        app:layout_constraintEnd_toEndOf="@+id/tvLastName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvLastName"
+        app:layout_constraintTop_toBottomOf="@+id/tvLastName"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvPhoneNumber"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/taxtviewbackgruond"
+        android:text="Phone Number"
+        android:textAlignment="center"
+        android:textColor="@color/sorati"
+        app:layout_constraintEnd_toEndOf="@+id/tvEmail"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvEmail"
+        app:layout_constraintTop_toBottomOf="@+id/tvEmail"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

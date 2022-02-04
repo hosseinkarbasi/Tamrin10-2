@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.netflix.HomeFragment"
+        android:label="Home" />
+    <fragment
+        android:id="@+id/comingSoonFragment"
+        android:name="com.example.netflix.ComingSoonFragment"
+        android:label="Coming Soon" />
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.example.netflix.FavoriteFragment"
+        android:label="Favorite" />
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.netflix.RegisterFragment"
+        android:label="Profile" >
+        <action
+            android:id="@+id/action_registerFragment_to_profileFragment"
+            app:destination="@id/profileFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment2"
+        android:name="com.example.netflix.ProfileFragment"
+        android:label="ProfileFragment" >
+        <argument
+            android:name="username"
+            app:argType="string" />
+        <argument android:name="firstname"
+            app:argType="string" />
+        <argument android:name="lastname"
+            app:argType="string" />
+        <argument
+            android:name="email"
+            app:argType="string" />
+        <argument
+            android:name="phonenumber"
+            app:argType="string" />
+    </fragment>
+</navigation>
