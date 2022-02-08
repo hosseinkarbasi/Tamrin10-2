@@ -17,6 +17,7 @@ class ProfileFragment : Fragment(R.layout.profile) {
 
         with(binding) {
 
+            profileImage.setImageURI(navArgs.imageUri)
             tvFirstName.text = navArgs.firstname
             tvUserName.text = navArgs.username
             tvEmail.text = navArgs.email

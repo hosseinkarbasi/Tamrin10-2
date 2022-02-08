@@ -22,18 +22,20 @@
         android:label="Profile" >
         <action
             android:id="@+id/action_registerFragment_to_profileFragment"
-            app:destination="@id/profileFragment2" />
+            app:destination="@id/profileFragment" />
     </fragment>
     <fragment
-        android:id="@+id/profileFragment2"
+        android:id="@+id/profileFragment"
         android:name="com.example.netflix.ProfileFragment"
-        android:label="ProfileFragment" >
+        android:label="Profile">
         <argument
             android:name="username"
             app:argType="string" />
-        <argument android:name="firstname"
+        <argument
+            android:name="firstname"
             app:argType="string" />
-        <argument android:name="lastname"
+        <argument
+            android:name="lastname"
             app:argType="string" />
         <argument
             android:name="email"
@@ -41,5 +43,8 @@
         <argument
             android:name="phonenumber"
             app:argType="string" />
+        <argument
+            android:name="imageUri"
+            app:argType="android.net.Uri" />
     </fragment>
 </navigation>

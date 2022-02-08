@@ -1,9 +1,4 @@
-package com.example.netflix
-
-import androidx.lifecycle.ViewModel
-
-class MovieViewModel : ViewModel() {
-    private val movieImgBank = listOf(
+private val movieImgBank = listOf(
         MovieItem(R.drawable.movie01, "1917", false),
         MovieItem(R.drawable.movie02, "355", false),
         MovieItem(R.drawable.movie03, "Above Suspicion", false),
@@ -26,4 +21,3 @@ class MovieViewModel : ViewModel() {
         MovieItem(R.drawable.movie20, "Venom", false),
         MovieItem(R.drawable.movie21, "Wrath Of Man", false)
     )
-}

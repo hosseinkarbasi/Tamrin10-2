@@ -10,6 +10,10 @@
         android:id="@+id/verticalLinearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:orientation="vertical"
         android:weightSum="7">
 
@@ -28,8 +32,10 @@
                 android:layout_marginStart="4dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="4dp"
+                android:layout_marginBottom="8dp"
                 android:layout_weight="1"
-                app:cardCornerRadius="16dp">
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -62,10 +68,11 @@
                             app:layout_constraintVertical_bias="0.0" />
 
                         <CheckBox
-                            android:id="@+id/favCheck01"
+                            android:id="@+id/favCheck_00"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:button="@drawable/selector_wishlist_item"
+                            android:visibility="gone"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.763"
@@ -86,7 +93,8 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="4dp"
                 android:layout_weight="1"
-                app:cardCornerRadius="16dp">
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -119,10 +127,11 @@
                             app:layout_constraintVertical_bias="0.0" />
 
                         <CheckBox
-                            android:id="@+id/favCheck02"
+                            android:id="@+id/favCheck_01"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:button="@drawable/selector_wishlist_item"
+                            android:visibility="gone"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.763"
@@ -143,7 +152,8 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="4dp"
                 android:layout_weight="1"
-                app:cardCornerRadius="16dp">
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -176,10 +186,11 @@
                             app:layout_constraintVertical_bias="0.0" />
 
                         <CheckBox
-                            android:id="@+id/favCheck03"
+                            android:id="@+id/favCheck_02"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:button="@drawable/selector_wishlist_item"
+                            android:visibility="gone"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.763"
@@ -208,8 +219,10 @@
                 android:layout_marginStart="4dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="4dp"
+                android:layout_marginBottom="8dp"
                 android:layout_weight="1"
-                app:cardCornerRadius="16dp">
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -242,10 +255,11 @@
                             app:layout_constraintVertical_bias="0.0" />
 
                         <CheckBox
-                            android:id="@+id/favCheck04"
+                            android:id="@+id/favCheck_10"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:button="@drawable/selector_wishlist_item"
+                            android:visibility="gone"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.763"
@@ -261,6 +275,7 @@
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/cardView05"
                 android:layout_width="160dp"
+                app:cardElevation="8dp"
                 android:layout_height="300dp"
                 android:layout_marginStart="4dp"
                 android:layout_marginTop="8dp"
@@ -299,10 +314,11 @@
                             app:layout_constraintVertical_bias="0.0" />
 
                         <CheckBox
-                            android:id="@+id/favCheck05"
+                            android:id="@+id/favCheck_11"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:button="@drawable/selector_wishlist_item"
+                            android:visibility="gone"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.763"
@@ -323,7 +339,8 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="4dp"
                 android:layout_weight="1"
-                app:cardCornerRadius="16dp">
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -356,10 +373,11 @@
                             app:layout_constraintVertical_bias="0.0" />
 
                         <CheckBox
-                            android:id="@+id/favCheck06"
+                            android:id="@+id/favCheck_12"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:button="@drawable/selector_wishlist_item"
+                            android:visibility="gone"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.763"
@@ -388,8 +406,10 @@
                 android:layout_marginStart="4dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="4dp"
+                android:layout_marginBottom="8dp"
                 android:layout_weight="1"
-                app:cardCornerRadius="16dp">
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -422,10 +442,11 @@
                             app:layout_constraintVertical_bias="0.0" />
 
                         <CheckBox
-                            android:id="@+id/favCheck07"
+                            android:id="@+id/favCheck_20"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:button="@drawable/selector_wishlist_item"
+                            android:visibility="gone"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.763"
@@ -446,7 +467,8 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="4dp"
                 android:layout_weight="1"
-                app:cardCornerRadius="16dp">
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -479,10 +501,11 @@
                             app:layout_constraintVertical_bias="0.0" />
 
                         <CheckBox
-                            android:id="@+id/favCheck08"
+                            android:id="@+id/favCheck_21"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:button="@drawable/selector_wishlist_item"
+                            android:visibility="gone"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.763"
@@ -503,7 +526,8 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="4dp"
                 android:layout_weight="1"
-                app:cardCornerRadius="16dp">
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -536,10 +560,11 @@
                             app:layout_constraintVertical_bias="0.0" />
 
                         <CheckBox
-                            android:id="@+id/favCheck09"
+                            android:id="@+id/favCheck_22"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:button="@drawable/selector_wishlist_item"
+                            android:visibility="gone"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.763"
@@ -568,8 +593,10 @@
                 android:layout_marginStart="4dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="4dp"
+                android:layout_marginBottom="8dp"
                 android:layout_weight="1"
-                app:cardCornerRadius="16dp">
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -602,10 +629,11 @@
                             app:layout_constraintVertical_bias="0.0" />
 
                         <CheckBox
-                            android:id="@+id/favCheck10"
+                            android:id="@+id/favCheck_30"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:button="@drawable/selector_wishlist_item"
+                            android:visibility="gone"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.763"
@@ -626,7 +654,8 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="4dp"
                 android:layout_weight="1"
-                app:cardCornerRadius="16dp">
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -650,7 +679,7 @@
                             android:id="@+id/movieTitle11"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Hitman Wifes Bodyguard"
+                            android:text="Wifes Bodyguard"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.457"
@@ -659,10 +688,11 @@
                             app:layout_constraintVertical_bias="0.0" />
 
                         <CheckBox
-                            android:id="@+id/favCheck11"
+                            android:id="@+id/favCheck_31"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:button="@drawable/selector_wishlist_item"
+                            android:visibility="gone"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.763"
@@ -683,7 +713,8 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="4dp"
                 android:layout_weight="1"
-                app:cardCornerRadius="16dp">
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -716,10 +747,11 @@
                             app:layout_constraintVertical_bias="0.0" />
 
                         <CheckBox
-                            android:id="@+id/favCheck12"
+                            android:id="@+id/favCheck_32"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:button="@drawable/selector_wishlist_item"
+                            android:visibility="gone"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.763"
@@ -748,8 +780,10 @@
                 android:layout_marginStart="4dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="4dp"
+                android:layout_marginBottom="8dp"
                 android:layout_weight="1"
-                app:cardCornerRadius="16dp">
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -782,10 +816,11 @@
                             app:layout_constraintVertical_bias="0.0" />
 
                         <CheckBox
-                            android:id="@+id/favCheck13"
+                            android:id="@+id/favCheck_40"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:button="@drawable/selector_wishlist_item"
+                            android:visibility="gone"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.763"
@@ -803,6 +838,7 @@
                 android:layout_width="160dp"
                 android:layout_height="300dp"
                 android:layout_marginStart="4dp"
+                app:cardElevation="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="4dp"
                 android:layout_weight="1"
@@ -839,10 +875,11 @@
                             app:layout_constraintVertical_bias="0.0" />
 
                         <CheckBox
-                            android:id="@+id/favCheck14"
+                            android:id="@+id/favCheck_41"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:button="@drawable/selector_wishlist_item"
+                            android:visibility="gone"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.763"
@@ -859,6 +896,7 @@
                 android:id="@+id/cardView15"
                 android:layout_width="160dp"
                 android:layout_height="300dp"
+                app:cardElevation="8dp"
                 android:layout_marginStart="4dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="4dp"
@@ -896,10 +934,11 @@
                             app:layout_constraintVertical_bias="0.0" />
 
                         <CheckBox
-                            android:id="@+id/favCheck15"
+                            android:id="@+id/favCheck_42"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:button="@drawable/selector_wishlist_item"
+                            android:visibility="gone"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.763"
@@ -920,10 +959,13 @@
             android:layout_weight="1"
             android:orientation="horizontal"
             android:weightSum="3">
+
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/cardView16"
                 android:layout_width="160dp"
                 android:layout_height="300dp"
+                app:cardElevation="8dp"
+                android:layout_marginBottom="8dp"
                 android:layout_marginStart="4dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="4dp"
@@ -961,10 +1003,11 @@
                             app:layout_constraintVertical_bias="0.0" />
 
                         <CheckBox
-                            android:id="@+id/favCheck16"
+                            android:id="@+id/favCheck_50"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:button="@drawable/selector_wishlist_item"
+                            android:visibility="gone"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.763"
@@ -976,10 +1019,12 @@
                     </androidx.constraintlayout.widget.ConstraintLayout>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
+
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/cardView17"
                 android:layout_width="160dp"
                 android:layout_height="300dp"
+                app:cardElevation="8dp"
                 android:layout_marginStart="4dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="4dp"
@@ -1017,10 +1062,11 @@
                             app:layout_constraintVertical_bias="0.0" />
 
                         <CheckBox
-                            android:id="@+id/favCheck17"
+                            android:id="@+id/favCheck_51"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:button="@drawable/selector_wishlist_item"
+                            android:visibility="gone"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.763"
@@ -1032,10 +1078,12 @@
                     </androidx.constraintlayout.widget.ConstraintLayout>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
+
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/cardView18"
                 android:layout_width="160dp"
                 android:layout_height="300dp"
+                app:cardElevation="8dp"
                 android:layout_marginStart="4dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="4dp"
@@ -1073,10 +1121,11 @@
                             app:layout_constraintVertical_bias="0.0" />
 
                         <CheckBox
-                            android:id="@+id/favCheck18"
+                            android:id="@+id/favCheck_52"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:button="@drawable/selector_wishlist_item"
+                            android:visibility="gone"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.763"
@@ -1097,10 +1146,13 @@
             android:layout_weight="1"
             android:orientation="horizontal"
             android:weightSum="3">
+
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/cardView19"
                 android:layout_width="160dp"
                 android:layout_height="300dp"
+                app:cardElevation="8dp"
+                android:layout_marginBottom="8dp"
                 android:layout_marginStart="4dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="4dp"
@@ -1138,10 +1190,11 @@
                             app:layout_constraintVertical_bias="0.0" />
 
                         <CheckBox
-                            android:id="@+id/favCheck19"
+                            android:id="@+id/favCheck_60"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:button="@drawable/selector_wishlist_item"
+                            android:visibility="gone"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.763"
@@ -1153,10 +1206,12 @@
                     </androidx.constraintlayout.widget.ConstraintLayout>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
+
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/cardView20"
                 android:layout_width="160dp"
                 android:layout_height="300dp"
+                app:cardElevation="8dp"
                 android:layout_marginStart="4dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="4dp"
@@ -1194,10 +1249,11 @@
                             app:layout_constraintVertical_bias="0.0" />
 
                         <CheckBox
-                            android:id="@+id/favCheck20"
+                            android:id="@+id/favCheck_61"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:button="@drawable/selector_wishlist_item"
+                            android:visibility="gone"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.763"
@@ -1209,10 +1265,12 @@
                     </androidx.constraintlayout.widget.ConstraintLayout>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
+
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/cardView21"
                 android:layout_width="160dp"
                 android:layout_height="300dp"
+                app:cardElevation="8dp"
                 android:layout_marginStart="4dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="4dp"
@@ -1250,10 +1308,11 @@
                             app:layout_constraintVertical_bias="0.0" />
 
                         <CheckBox
-                            android:id="@+id/favCheck21"
+                            android:id="@+id/favCheck_62"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:button="@drawable/selector_wishlist_item"
+                            android:visibility="gone"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.763"

@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Users/Hossein/AndroidStudioProjects/Netflix/app/src/main/res/drawable-xxxhdpi/movie_image.xml" value="0.1475" />
         <entry key="..\:/Users/Hossein/AndroidStudioProjects/Netflix/app/src/main/res/drawable/355_background.xml" value="0.1355" />
+        <entry key="..\:/Users/Hossein/AndroidStudioProjects/Netflix/app/src/main/res/drawable/ic_baseline_control_point_24.xml" value="0.1075" />
         <entry key="..\:/Users/Hossein/AndroidStudioProjects/Netflix/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.1475" />
         <entry key="..\:/Users/Hossein/AndroidStudioProjects/Netflix/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.148" />
         <entry key="..\:/Users/Hossein/AndroidStudioProjects/Netflix/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.148" />
@@ -17,16 +18,17 @@
         <entry key="..\:/Users/Hossein/AndroidStudioProjects/Netflix/app/src/main/res/drawable/selector_wishlist_item.xml" value="0.148" />
         <entry key="..\:/Users/Hossein/AndroidStudioProjects/Netflix/app/src/main/res/drawable/taxtviewbackgruond.xml" value="0.148" />
         <entry key="..\:/Users/Hossein/AndroidStudioProjects/Netflix/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Users/Hossein/AndroidStudioProjects/Netflix/app/src/main/res/layout/comingsoon.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Hossein/AndroidStudioProjects/Netflix/app/src/main/res/layout/comingsoon.xml" value="0.25" />
+        <entry key="..\:/Users/Hossein/AndroidStudioProjects/Netflix/app/src/main/res/layout/favorite.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Hossein/AndroidStudioProjects/Netflix/app/src/main/res/layout/fragment_comingsoon.xml" value="0.16291532690246516" />
         <entry key="..\:/Users/Hossein/AndroidStudioProjects/Netflix/app/src/main/res/layout/fragment_favorite.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Hossein/AndroidStudioProjects/Netflix/app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="..\:/Users/Hossein/AndroidStudioProjects/Netflix/app/src/main/res/layout/fragment_profile.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Hossein/AndroidStudioProjects/Netflix/app/src/main/res/layout/fragment_register.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/Hossein/AndroidStudioProjects/Netflix/app/src/main/res/layout/home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Hossein/AndroidStudioProjects/Netflix/app/src/main/res/layout/home.xml" value="0.42589928057553955" />
         <entry key="..\:/Users/Hossein/AndroidStudioProjects/Netflix/app/src/main/res/layout/item.xml" value="0.33" />
         <entry key="..\:/Users/Hossein/AndroidStudioProjects/Netflix/app/src/main/res/layout/item2.xml" value="0.25" />
-        <entry key="..\:/Users/Hossein/AndroidStudioProjects/Netflix/app/src/main/res/layout/profile.xml" value="0.22" />
+        <entry key="..\:/Users/Hossein/AndroidStudioProjects/Netflix/app/src/main/res/layout/profile.xml" value="0.25" />
         <entry key="..\:/Users/Hossein/AndroidStudioProjects/Netflix/app/src/main/res/layout/register.xml" value="0.25" />
         <entry key="..\:/Users/Hossein/AndroidStudioProjects/Netflix/app/src/main/res/layout/switch_item.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Hossein/AndroidStudioProjects/Netflix/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.20416666666666666" />

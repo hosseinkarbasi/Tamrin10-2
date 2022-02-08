@@ -11,12 +11,13 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:textColorHint="#C1C1C1"
         app:boxBackgroundColor="@color/white"
         app:boxCornerRadiusBottomEnd="36dp"
         app:boxCornerRadiusBottomStart="36dp"
         app:boxCornerRadiusTopEnd="36dp"
         app:boxCornerRadiusTopStart="36dp"
-        app:boxStrokeColor="#ff8ca7"
+        app:boxStrokeColor="#FFF6207D"
         app:endIconMode="clear_text"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
@@ -29,6 +30,7 @@
             android:hint="First Name"
             android:textAlignment="textStart"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/black"
             android:textColorHint="#ff8ca7" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -38,6 +40,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:textColorHint="#C1C1C1"
         app:boxBackgroundColor="@color/white"
         app:boxCornerRadiusBottomEnd="36dp"
         app:boxCornerRadiusBottomStart="36dp"
@@ -54,6 +57,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="Last Name"
+            android:textColor="@color/black"
             android:textAlignment="textStart"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColorHint="#ff8ca7" />
@@ -63,6 +67,7 @@
         android:id="@+id/textInputUserName"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="0dp"
+        android:textColorHint="#C1C1C1"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         app:boxBackgroundColor="@color/white"
@@ -80,6 +85,7 @@
             android:id="@+id/edUserName"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:textColor="@color/black"
             android:hint="User Name"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -88,6 +94,7 @@
         android:id="@+id/textInputEmail"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="0dp"
+        android:textColorHint="#C1C1C1"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         app:boxBackgroundColor="@color/white"
@@ -106,6 +113,7 @@
             android:id="@+id/edEmail"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:textColor="@color/black"
             android:hint="Email"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -116,6 +124,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:textColorHint="#C1C1C1"
         app:boxBackgroundColor="@color/white"
         app:boxCornerRadiusBottomEnd="36dp"
         app:boxCornerRadiusBottomStart="36dp"
@@ -131,8 +140,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:ems="10"
+            android:textColor="@color/black"
             android:hint="Phone Number"
-            android:inputType="textPassword"
+            android:inputType="number"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             tools:ignore="Deprecated" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -145,7 +155,7 @@
         android:text="SIGN UP"
         android:textAppearance="?attr/textAppearanceHeadline6"
         android:textColor="@color/white"
-        app:backgroundTint="#F6398B"
+        app:backgroundTint="#FFF6207D"
         app:cornerRadius="50dp"
         app:layout_constraintEnd_toEndOf="@+id/textInputPhoneNumber"
         app:layout_constraintStart_toStartOf="@+id/textInputPhoneNumber"
@@ -167,11 +177,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline2">
 
-        <ImageView
-            android:id="@+id/imageView"
+        <ImageButton
+            android:id="@+id/btnSelectImgProfile"
             android:layout_width="130dp"
             android:layout_height="130dp"
-            android:src="@drawable/avatar_" />
+            android:background="@drawable/avatar_" />
     </androidx.cardview.widget.CardView>
 
     <androidx.constraintlayout.widget.Guideline

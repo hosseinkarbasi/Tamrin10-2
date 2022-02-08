@@ -1,45 +1,59 @@
 package com.example.netflix
 
+import android.net.Uri
 import android.os.Bundle
 import android.util.Patterns
 import android.view.View
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.fragment.app.Fragment
-import androidx.navigation.fragment.findNavController
+import androidx.fragment.app.activityViewModels
 import com.example.netflix.databinding.RegisterBinding
 
 class RegisterFragment : Fragment(R.layout.register) {
+
+    private var imageAddresses: Uri? = null
     private lateinit var binding: RegisterBinding
-    private val navController by lazy { findNavController() }
+    private val registerViewModel: RegisterViewModel by activityViewModels()
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding = RegisterBinding.bind(view)
 
+
         with(binding) {
             btnRegister.setOnClickListener {
-
-                val firstName = edFirstName.text.toString()
-                val lastName = edLastName.text.toString()
-                val userName = edUserName.text.toString()
-                val email = edEmail.text.toString()
-                val phoneNumber = edPhoneNumber.text.toString()
 
                 if (!validateEmail() || !validateFirstName() || !validateLastName()) {
                     return@setOnClickListener
                 } else {
-                    navController.navigate(
-                        RegisterFragmentDirections.actionRegisterFragmentToProfileFragment(
-                            userName,
-                            firstName,
-                            lastName,
-                            email,
-                            phoneNumber
-                        )
+
+                    registerViewModel.isRegister()
+
+                    registerViewModel.signUp(
+                        edUserName.text.toString(),
+                        edFirstName.text.toString(),
+                        edLastName.text.toString(),
+                        edEmail.text.toString(),
+                        edPhoneNumber.text.toString(),
+                        imageAddresses!!,
+                        this@RegisterFragment
                     )
                 }
             }
+            loadImageFromGallery()
         }
     }
 
+
+    private fun RegisterBinding.loadImageFromGallery() {
+        val loadImage = registerForActivityResult(ActivityResultContracts.GetContent()) {
+            imageAddresses = it
+            btnSelectImgProfile.setImageURI(it)
+        }
+        btnSelectImgProfile.setOnClickListener {
+            loadImage.launch("image/*")
+        }
+    }
 
     private fun validateFirstName(): Boolean {
         return if (binding.edFirstName.text!!.isEmpty()) {
